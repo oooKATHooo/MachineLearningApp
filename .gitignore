@@ -11,4 +11,5 @@
 !/pages/*
 !/Dataset_Infos/*
 
+!/.streamlit/config.toml
 !/Evaluation/model_testing.csv
