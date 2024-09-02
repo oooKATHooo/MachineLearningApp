@@ -1,0 +1,277 @@
+dataset,model,scaling,pca_method,pca_arg,columns_after_pca,evaluation
+Iris,LinearRegression(),,,,4,0.9468960016420044
+Iris,LinearRegression(),MinMaxScaler,,,4,0.9468960016420045
+Iris,LinearRegression(),MinMaxScaler,Number of components,2,2,0.9235764422287417
+Iris,LinearRegression(),MinMaxScaler,Number of components,3,3,0.9485405359271524
+Iris,LinearRegression(),MinMaxScaler,Percentage of Variance,25,1,0.9286751765266595
+Iris,LinearRegression(),MinMaxScaler,Percentage of Variance,50,1,0.9286751765266595
+Iris,LinearRegression(),MinMaxScaler,Percentage of Variance,75,1,0.9286751765266595
+Iris,LinearRegression(),MinMaxScaler,Percentage of Variance,90,2,0.9235764422287417
+Iris,LinearRegression(),StandardScaler,,,4,0.9468960016420045
+Iris,LinearRegression(),StandardScaler,Number of components,2,2,0.9063571489529423
+Iris,LinearRegression(),StandardScaler,Number of components,3,3,0.9487780710773177
+Iris,LinearRegression(),StandardScaler,Percentage of Variance,25,1,0.9099790239079119
+Iris,LinearRegression(),StandardScaler,Percentage of Variance,50,1,0.9099790239079119
+Iris,LinearRegression(),StandardScaler,Percentage of Variance,75,2,0.9063571489529423
+Iris,LinearRegression(),StandardScaler,Percentage of Variance,90,2,0.9063571489529423
+Iris,KMeans(n_clusters=3),,,,4,0.5538417178134332
+Iris,KMeans(n_clusters=3),MinMaxScaler,,,4,0.5223888068379672
+Iris,KMeans(n_clusters=3),MinMaxScaler,Number of components,2,2,0.561613158149414
+Iris,KMeans(n_clusters=3),MinMaxScaler,Number of components,3,3,0.5369916588007234
+Iris,KMeans(n_clusters=3),MinMaxScaler,Percentage of Variance,25,1,0.7088949899844593
+Iris,KMeans(n_clusters=3),MinMaxScaler,Percentage of Variance,50,1,0.7088949899844593
+Iris,KMeans(n_clusters=3),MinMaxScaler,Percentage of Variance,75,1,0.7088949899844593
+Iris,KMeans(n_clusters=3),MinMaxScaler,Percentage of Variance,90,2,0.561613158149414
+Iris,KMeans(n_clusters=3),StandardScaler,,,4,0.4467091384685918
+Iris,KMeans(n_clusters=3),StandardScaler,Number of components,2,2,0.4689673827718206
+Iris,KMeans(n_clusters=3),StandardScaler,Number of components,3,3,0.4560375252908341
+Iris,KMeans(n_clusters=3),StandardScaler,Percentage of Variance,25,1,0.662124988186789
+Iris,KMeans(n_clusters=3),StandardScaler,Percentage of Variance,50,1,0.662124988186789
+Iris,KMeans(n_clusters=3),StandardScaler,Percentage of Variance,75,2,0.4689673827718206
+Iris,KMeans(n_clusters=3),StandardScaler,Percentage of Variance,90,2,0.4689673827718206
+Iris,LogisticRegression(solver='liblinear'),,,,4,"(1.0, 1.0, 1.0, 1.0)"
+Iris,LogisticRegression(solver='liblinear'),MinMaxScaler,,,4,"(0.9, 0.929, 0.889, 0.893)"
+Iris,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,2,2,"(0.933, 0.949, 0.926, 0.931)"
+Iris,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,3,3,"(0.933, 0.949, 0.926, 0.931)"
+Iris,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,25,1,"(0.867, 0.911, 0.852, 0.853)"
+Iris,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,50,1,"(0.867, 0.911, 0.852, 0.853)"
+Iris,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,75,1,"(0.867, 0.911, 0.852, 0.853)"
+Iris,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,90,2,"(0.933, 0.949, 0.926, 0.931)"
+Iris,LogisticRegression(solver='liblinear'),StandardScaler,,,4,"(0.967, 0.972, 0.963, 0.966)"
+Iris,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,2,2,"(0.933, 0.949, 0.926, 0.931)"
+Iris,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,3,3,"(0.967, 0.972, 0.963, 0.966)"
+Iris,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,25,1,"(0.933, 0.949, 0.926, 0.931)"
+Iris,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,50,1,"(0.933, 0.949, 0.926, 0.931)"
+Iris,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,75,2,"(0.933, 0.949, 0.926, 0.931)"
+Iris,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,90,2,"(0.933, 0.949, 0.926, 0.931)"
+Iris,DecisionTreeClassifier(),,,,4,"(1.0, 1.0, 1.0, 1.0)"
+Iris,DecisionTreeClassifier(),MinMaxScaler,,,4,"(1.0, 1.0, 1.0, 1.0)"
+Iris,DecisionTreeClassifier(),MinMaxScaler,Number of components,2,2,"(1.0, 1.0, 1.0, 1.0)"
+Iris,DecisionTreeClassifier(),MinMaxScaler,Number of components,3,3,"(1.0, 1.0, 1.0, 1.0)"
+Iris,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,25,1,"(0.967, 0.972, 0.963, 0.966)"
+Iris,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,50,1,"(0.967, 0.972, 0.963, 0.966)"
+Iris,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,75,1,"(0.967, 0.972, 0.963, 0.966)"
+Iris,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,90,2,"(1.0, 1.0, 1.0, 1.0)"
+Iris,DecisionTreeClassifier(),StandardScaler,,,4,"(1.0, 1.0, 1.0, 1.0)"
+Iris,DecisionTreeClassifier(),StandardScaler,Number of components,2,2,"(0.867, 0.865, 0.865, 0.865)"
+Iris,DecisionTreeClassifier(),StandardScaler,Number of components,3,3,"(0.933, 0.933, 0.933, 0.933)"
+Iris,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,25,1,"(0.867, 0.865, 0.865, 0.865)"
+Iris,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,50,1,"(0.867, 0.865, 0.865, 0.865)"
+Iris,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,75,2,"(0.867, 0.865, 0.865, 0.865)"
+Iris,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,90,2,"(0.867, 0.865, 0.865, 0.865)"
+Digits,LinearRegression(),,,,64,0.5779768952989144
+Digits,LinearRegression(),MinMaxScaler,,,64,0.5779768952989145
+Digits,LinearRegression(),MinMaxScaler,Number of components,2,2,0.014186988386906352
+Digits,LinearRegression(),MinMaxScaler,Number of components,9,9,0.3816072342154737
+Digits,LinearRegression(),MinMaxScaler,Number of components,16,16,0.44807431482565396
+Digits,LinearRegression(),MinMaxScaler,Number of components,23,23,0.5228385141985223
+Digits,LinearRegression(),MinMaxScaler,Number of components,30,30,0.5552048728360991
+Digits,LinearRegression(),MinMaxScaler,Number of components,37,37,0.5537257476305109
+Digits,LinearRegression(),MinMaxScaler,Number of components,44,44,0.5644069527379731
+Digits,LinearRegression(),MinMaxScaler,Number of components,51,51,0.5720035088947686
+Digits,LinearRegression(),MinMaxScaler,Number of components,58,58,0.5761742684845648
+Digits,LinearRegression(),MinMaxScaler,Percentage of Variance,25,2,0.014186988386906352
+Digits,LinearRegression(),MinMaxScaler,Percentage of Variance,50,5,0.07536144376143761
+Digits,LinearRegression(),MinMaxScaler,Percentage of Variance,75,11,0.4282525004984472
+Digits,LinearRegression(),MinMaxScaler,Percentage of Variance,90,22,0.5182334298121076
+Digits,LinearRegression(),StandardScaler,,,64,0.577431682873363
+Digits,LinearRegression(),StandardScaler,Number of components,2,2,0.05712808462273544
+Digits,LinearRegression(),StandardScaler,Number of components,9,9,0.28298758549477043
+Digits,LinearRegression(),StandardScaler,Number of components,16,16,0.32512056264600153
+Digits,LinearRegression(),StandardScaler,Number of components,23,23,0.46044528369823556
+Digits,LinearRegression(),StandardScaler,Number of components,30,30,0.5313103640366301
+Digits,LinearRegression(),StandardScaler,Number of components,37,37,0.5380684112421541
+Digits,LinearRegression(),StandardScaler,Number of components,44,44,0.5608045751570426
+Digits,LinearRegression(),StandardScaler,Number of components,51,51,0.5750260119581658
+Digits,LinearRegression(),StandardScaler,Number of components,58,58,0.5740216116867913
+Digits,LinearRegression(),StandardScaler,Percentage of Variance,25,3,0.06910763775817064
+Digits,LinearRegression(),StandardScaler,Percentage of Variance,50,8,0.28295447318194256
+Digits,LinearRegression(),StandardScaler,Percentage of Variance,75,18,0.36502895169758043
+Digits,LinearRegression(),StandardScaler,Percentage of Variance,90,31,0.5312452700785237
+Digits,KMeans(n_clusters=10),,,,64,0.16071962268170953
+Digits,KMeans(n_clusters=10),MinMaxScaler,,,64,0.15928074167673734
+Digits,KMeans(n_clusters=10),MinMaxScaler,Number of components,2,2,0.10940256815448209
+Digits,KMeans(n_clusters=10),MinMaxScaler,Number of components,9,9,0.23035859434085967
+Digits,KMeans(n_clusters=10),MinMaxScaler,Number of components,16,16,0.1998650612787674
+Digits,KMeans(n_clusters=10),MinMaxScaler,Number of components,23,23,0.18048251209271793
+Digits,KMeans(n_clusters=10),MinMaxScaler,Number of components,30,30,0.17099310628079095
+Digits,KMeans(n_clusters=10),MinMaxScaler,Number of components,37,37,0.16496872228952442
+Digits,KMeans(n_clusters=10),MinMaxScaler,Number of components,44,44,0.16127562685746175
+Digits,KMeans(n_clusters=10),MinMaxScaler,Number of components,51,51,0.15956373945456825
+Digits,KMeans(n_clusters=10),MinMaxScaler,Number of components,58,58,0.15935682353021913
+Digits,KMeans(n_clusters=10),MinMaxScaler,Percentage of Variance,25,2,0.10940256815448209
+Digits,KMeans(n_clusters=10),MinMaxScaler,Percentage of Variance,50,5,0.22475684942268995
+Digits,KMeans(n_clusters=10),MinMaxScaler,Percentage of Variance,75,11,0.22397457850885452
+Digits,KMeans(n_clusters=10),MinMaxScaler,Percentage of Variance,90,22,0.18230003028006578
+Digits,KMeans(n_clusters=10),StandardScaler,,,64,0.11779361242169328
+Digits,KMeans(n_clusters=10),StandardScaler,Number of components,2,2,0.05942195361898413
+Digits,KMeans(n_clusters=10),StandardScaler,Number of components,9,9,0.16361699649183248
+Digits,KMeans(n_clusters=10),StandardScaler,Number of components,16,16,0.16951724872936916
+Digits,KMeans(n_clusters=10),StandardScaler,Number of components,23,23,0.15792107163437125
+Digits,KMeans(n_clusters=10),StandardScaler,Number of components,30,30,0.1427276427418874
+Digits,KMeans(n_clusters=10),StandardScaler,Number of components,37,37,0.13359688436343262
+Digits,KMeans(n_clusters=10),StandardScaler,Number of components,44,44,0.12686985052001237
+Digits,KMeans(n_clusters=10),StandardScaler,Number of components,51,51,0.12194773816610491
+Digits,KMeans(n_clusters=10),StandardScaler,Number of components,58,58,0.11846576288688747
+Digits,KMeans(n_clusters=10),StandardScaler,Percentage of Variance,25,3,0.1694469287090038
+Digits,KMeans(n_clusters=10),StandardScaler,Percentage of Variance,50,8,0.16168722400608665
+Digits,KMeans(n_clusters=10),StandardScaler,Percentage of Variance,75,18,0.16888392143648007
+Digits,KMeans(n_clusters=10),StandardScaler,Percentage of Variance,90,31,0.14086696965667042
+Digits,LogisticRegression(solver='liblinear'),,,,64,"(0.961, 0.961, 0.962, 0.961)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,,,64,"(0.961, 0.963, 0.961, 0.961)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,2,2,"(0.617, 0.609, 0.622, 0.601)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,9,9,"(0.908, 0.908, 0.907, 0.907)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,16,16,"(0.947, 0.948, 0.946, 0.947)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,23,23,"(0.95, 0.949, 0.949, 0.949)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,30,30,"(0.958, 0.959, 0.957, 0.958)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,37,37,"(0.964, 0.965, 0.964, 0.964)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,44,44,"(0.961, 0.963, 0.961, 0.961)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,51,51,"(0.958, 0.959, 0.958, 0.959)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,58,58,"(0.958, 0.959, 0.958, 0.959)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,25,2,"(0.617, 0.609, 0.622, 0.601)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,50,5,"(0.831, 0.823, 0.821, 0.813)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,75,11,"(0.928, 0.928, 0.925, 0.926)"
+Digits,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,90,22,"(0.953, 0.953, 0.952, 0.952)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,,,64,"(0.967, 0.967, 0.967, 0.967)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,2,2,"(0.508, 0.5, 0.518, 0.453)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,9,9,"(0.858, 0.853, 0.853, 0.85)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,16,16,"(0.925, 0.924, 0.921, 0.922)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,23,23,"(0.936, 0.934, 0.933, 0.934)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,30,30,"(0.944, 0.944, 0.942, 0.943)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,37,37,"(0.958, 0.959, 0.958, 0.958)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,44,44,"(0.958, 0.958, 0.957, 0.957)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,51,51,"(0.961, 0.962, 0.962, 0.962)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,58,58,"(0.967, 0.968, 0.968, 0.967)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,25,3,"(0.669, 0.626, 0.683, 0.641)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,50,8,"(0.85, 0.848, 0.843, 0.839)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,75,18,"(0.928, 0.926, 0.924, 0.924)"
+Digits,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,90,31,"(0.944, 0.944, 0.942, 0.943)"
+Digits,DecisionTreeClassifier(),,,,64,"(0.847, 0.852, 0.844, 0.846)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,,,64,"(0.861, 0.869, 0.856, 0.861)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Number of components,2,2,"(0.536, 0.546, 0.542, 0.539)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Number of components,9,9,"(0.872, 0.873, 0.88, 0.875)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Number of components,16,16,"(0.864, 0.865, 0.87, 0.866)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Number of components,23,23,"(0.867, 0.868, 0.871, 0.868)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Number of components,30,30,"(0.869, 0.868, 0.873, 0.869)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Number of components,37,37,"(0.867, 0.866, 0.871, 0.867)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Number of components,44,44,"(0.867, 0.864, 0.867, 0.864)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Number of components,51,51,"(0.883, 0.881, 0.886, 0.883)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Number of components,58,58,"(0.867, 0.866, 0.872, 0.867)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,25,2,"(0.539, 0.542, 0.545, 0.54)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,50,5,"(0.847, 0.849, 0.848, 0.846)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,75,11,"(0.878, 0.88, 0.882, 0.88)"
+Digits,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,90,22,"(0.872, 0.871, 0.874, 0.871)"
+Digits,DecisionTreeClassifier(),StandardScaler,,,64,"(0.836, 0.845, 0.831, 0.835)"
+Digits,DecisionTreeClassifier(),StandardScaler,Number of components,2,2,"(0.528, 0.516, 0.525, 0.516)"
+Digits,DecisionTreeClassifier(),StandardScaler,Number of components,9,9,"(0.839, 0.845, 0.836, 0.838)"
+Digits,DecisionTreeClassifier(),StandardScaler,Number of components,16,16,"(0.847, 0.85, 0.846, 0.846)"
+Digits,DecisionTreeClassifier(),StandardScaler,Number of components,23,23,"(0.844, 0.848, 0.844, 0.844)"
+Digits,DecisionTreeClassifier(),StandardScaler,Number of components,30,30,"(0.831, 0.835, 0.83, 0.831)"
+Digits,DecisionTreeClassifier(),StandardScaler,Number of components,37,37,"(0.833, 0.842, 0.833, 0.836)"
+Digits,DecisionTreeClassifier(),StandardScaler,Number of components,44,44,"(0.822, 0.825, 0.818, 0.82)"
+Digits,DecisionTreeClassifier(),StandardScaler,Number of components,51,51,"(0.819, 0.824, 0.816, 0.819)"
+Digits,DecisionTreeClassifier(),StandardScaler,Number of components,58,58,"(0.822, 0.827, 0.816, 0.819)"
+Digits,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,25,3,"(0.686, 0.696, 0.691, 0.689)"
+Digits,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,50,8,"(0.867, 0.87, 0.867, 0.868)"
+Digits,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,75,18,"(0.842, 0.85, 0.839, 0.842)"
+Digits,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,90,31,"(0.842, 0.846, 0.84, 0.841)"
+Breast_cancer,LinearRegression(),,,,30,0.7271016126223562
+Breast_cancer,LinearRegression(),MinMaxScaler,,,30,0.7271016126223557
+Breast_cancer,LinearRegression(),MinMaxScaler,Number of components,2,2,0.7056098031446238
+Breast_cancer,LinearRegression(),MinMaxScaler,Number of components,6,6,0.7145175025858508
+Breast_cancer,LinearRegression(),MinMaxScaler,Number of components,10,10,0.7276313542126289
+Breast_cancer,LinearRegression(),MinMaxScaler,Number of components,14,14,0.7416889329349415
+Breast_cancer,LinearRegression(),MinMaxScaler,Number of components,18,18,0.7449204336303298
+Breast_cancer,LinearRegression(),MinMaxScaler,Number of components,22,22,0.7617279080932208
+Breast_cancer,LinearRegression(),MinMaxScaler,Number of components,26,26,0.7288043768014629
+Breast_cancer,LinearRegression(),MinMaxScaler,Percentage of Variance,25,1,0.6849890846283919
+Breast_cancer,LinearRegression(),MinMaxScaler,Percentage of Variance,50,1,0.6849890846283919
+Breast_cancer,LinearRegression(),MinMaxScaler,Percentage of Variance,75,3,0.704887332389605
+Breast_cancer,LinearRegression(),MinMaxScaler,Percentage of Variance,90,6,0.7145175025858508
+Breast_cancer,LinearRegression(),StandardScaler,,,30,0.7271016126223555
+Breast_cancer,LinearRegression(),StandardScaler,Number of components,2,2,0.7032983729817076
+Breast_cancer,LinearRegression(),StandardScaler,Number of components,6,6,0.7051537507283592
+Breast_cancer,LinearRegression(),StandardScaler,Number of components,10,10,0.7122641032978174
+Breast_cancer,LinearRegression(),StandardScaler,Number of components,14,14,0.731577460803728
+Breast_cancer,LinearRegression(),StandardScaler,Number of components,18,18,0.7456119011147151
+Breast_cancer,LinearRegression(),StandardScaler,Number of components,22,22,0.7551115988075932
+Breast_cancer,LinearRegression(),StandardScaler,Number of components,26,26,0.7366393745859441
+Breast_cancer,LinearRegression(),StandardScaler,Percentage of Variance,25,1,0.673425282052962
+Breast_cancer,LinearRegression(),StandardScaler,Percentage of Variance,50,2,0.7032983729817076
+Breast_cancer,LinearRegression(),StandardScaler,Percentage of Variance,75,4,0.7018377439518331
+Breast_cancer,LinearRegression(),StandardScaler,Percentage of Variance,90,7,0.7095773720783214
+Breast_cancer,KMeans(n_clusters=2),,,,30,0.5730840097529534
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,,,30,0.3476469179112757
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,Number of components,2,2,0.49502556154311983
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,Number of components,6,6,0.37656217415647203
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,Number of components,10,10,0.3595376426569342
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,Number of components,14,14,0.3517085197071553
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,Number of components,18,18,0.3494246125359334
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,Number of components,22,22,0.34827222964781807
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,Number of components,26,26,0.3477250764716209
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,Percentage of Variance,25,1,0.6097275543164602
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,Percentage of Variance,50,1,0.6097275543164602
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,Percentage of Variance,75,3,0.4564599106839021
+Breast_cancer,KMeans(n_clusters=2),MinMaxScaler,Percentage of Variance,90,6,0.37656217415647203
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,,,30,0.3102653526789849
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,Number of components,2,2,0.4799880162666104
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,Number of components,6,6,0.3421369160025606
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,Number of components,10,10,0.3224112308882049
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,Number of components,14,14,0.3142385360430372
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,Number of components,18,18,0.3122176460867629
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,Number of components,22,22,0.31104301875728874
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,Number of components,26,26,0.31036304862486036
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,Percentage of Variance,25,1,0.5998125589098982
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,Percentage of Variance,50,2,0.4799880162666104
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,Percentage of Variance,75,4,0.3827899558580085
+Breast_cancer,KMeans(n_clusters=2),StandardScaler,Percentage of Variance,90,7,0.33567636839455267
+Breast_cancer,LogisticRegression(solver='liblinear'),,,,30,"(0.956, 0.96, 0.946, 0.953)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,,,30,"(0.974, 0.98, 0.965, 0.972)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,2,2,"(0.956, 0.96, 0.946, 0.953)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,6,6,"(0.982, 0.986, 0.977, 0.981)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,10,10,"(0.982, 0.986, 0.977, 0.981)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,14,14,"(0.982, 0.986, 0.977, 0.981)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,18,18,"(0.982, 0.986, 0.977, 0.981)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,22,22,"(0.982, 0.986, 0.977, 0.981)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,Number of components,26,26,"(0.982, 0.986, 0.977, 0.981)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,25,1,"(0.947, 0.954, 0.935, 0.943)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,50,1,"(0.947, 0.954, 0.935, 0.943)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,75,3,"(0.956, 0.96, 0.946, 0.953)"
+Breast_cancer,LogisticRegression(solver='liblinear'),MinMaxScaler,Percentage of Variance,90,6,"(0.982, 0.986, 0.977, 0.981)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,,,30,"(0.974, 0.974, 0.97, 0.972)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,2,2,"(0.991, 0.993, 0.988, 0.991)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,6,6,"(0.982, 0.981, 0.981, 0.981)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,10,10,"(0.982, 0.981, 0.981, 0.981)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,14,14,"(0.991, 0.993, 0.988, 0.991)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,18,18,"(0.982, 0.981, 0.981, 0.981)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,22,22,"(0.974, 0.974, 0.97, 0.972)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,Number of components,26,26,"(0.974, 0.974, 0.97, 0.972)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,25,1,"(0.947, 0.954, 0.935, 0.943)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,50,2,"(0.991, 0.993, 0.988, 0.991)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,75,4,"(0.974, 0.974, 0.97, 0.972)"
+Breast_cancer,LogisticRegression(solver='liblinear'),StandardScaler,Percentage of Variance,90,7,"(0.982, 0.981, 0.981, 0.981)"
+Breast_cancer,DecisionTreeClassifier(),,,,30,"(0.947, 0.944, 0.944, 0.944)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,,,30,"(0.947, 0.944, 0.944, 0.944)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,Number of components,2,2,"(0.947, 0.954, 0.935, 0.943)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,Number of components,6,6,"(0.939, 0.931, 0.942, 0.935)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,Number of components,10,10,"(0.939, 0.933, 0.937, 0.935)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,Number of components,14,14,"(0.939, 0.933, 0.937, 0.935)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,Number of components,18,18,"(0.93, 0.923, 0.93, 0.926)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,Number of components,22,22,"(0.939, 0.941, 0.928, 0.934)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,Number of components,26,26,"(0.939, 0.941, 0.928, 0.934)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,25,1,"(0.947, 0.948, 0.939, 0.943)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,50,1,"(0.947, 0.948, 0.939, 0.943)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,75,3,"(0.93, 0.925, 0.925, 0.925)"
+Breast_cancer,DecisionTreeClassifier(),MinMaxScaler,Percentage of Variance,90,6,"(0.939, 0.933, 0.937, 0.935)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,,,30,"(0.93, 0.923, 0.93, 0.926)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,Number of components,2,2,"(0.982, 0.986, 0.977, 0.981)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,Number of components,6,6,"(0.939, 0.933, 0.937, 0.935)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,Number of components,10,10,"(0.947, 0.944, 0.944, 0.944)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,Number of components,14,14,"(0.947, 0.941, 0.949, 0.944)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,Number of components,18,18,"(0.974, 0.974, 0.97, 0.972)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,Number of components,22,22,"(0.965, 0.963, 0.963, 0.963)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,Number of components,26,26,"(0.974, 0.974, 0.97, 0.972)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,25,1,"(0.921, 0.928, 0.905, 0.914)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,50,2,"(0.982, 0.986, 0.977, 0.981)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,75,4,"(0.956, 0.952, 0.956, 0.954)"
+Breast_cancer,DecisionTreeClassifier(),StandardScaler,Percentage of Variance,90,7,"(0.939, 0.933, 0.937, 0.935)"

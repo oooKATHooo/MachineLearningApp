@@ -1,0 +1,14 @@
+*
+!*/
+
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/ml_pipeline.py
+!/test_app.py
+!/streamlit_app.py
+
+!/pages/*
+!/Dataset_Infos/*
+
+!/Evaluation/model_testing.csv

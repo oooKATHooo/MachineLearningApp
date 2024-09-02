@@ -1,0 +1,4 @@
+scikit-learn==1.5.1
+seaborn==0.13.2
+streamlit==1.38.0
+streamlit-extras==0.4.7
