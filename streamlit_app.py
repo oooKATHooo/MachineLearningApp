@@ -251,9 +251,6 @@ def make_interface():
     title_area("Machine Learning Application")
     evaluation_area()
     retain_area()
-    print("finished app_script\n"+ ("="*50),"\n\n")
-
-    
 
 
 make_interface()

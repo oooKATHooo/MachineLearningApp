@@ -3,7 +3,7 @@
 - eine **Web-Applikation ``Machine Learning Application``** bietet eine Oberfläche, welche die Klasse für den Anwender intuitiv nutzbar macht,  
   erreichbar unter:
 
-        www.xxx (folgt)
+        https://oookathooomachinelearningapp.streamlit.app/
 
 - sowie eine **Anwendung ``test_app.py``** zum ausführlichen Testen der Klasse incl. Dokumentation der Ergebnisse in einer csv-Datei. Diese App dient gleichzeitig als Anwendungsbeispiel für die Klasse ``MLPipeline``
 
@@ -17,9 +17,10 @@ sind Versuchsdatensätze für Klassifikationsprobleme. Lineare Regression und un
 
 
 # 3. Web-Anwendung
-Die Web-Anwendung wurde mithilfe von streamlit erstellt und ist in der streamlit-comunity-cloud über die URL  
-	    **www.xxx** (folgt)
+Die Web-Anwendung wurde mithilfe von streamlit erstellt und ist in der streamlit-comunity-cloud über die URL 
+**https://oookathooomachinelearningapp.streamlit.app/**  
 erreichbar.  
+
 Sie bietet eine Oberfläche zur Auswahl verschiedenster Argumente für die Methoden von MLPipeline, welche über den Button ``Run ML Process`` gestartet werden. Auf der Website wird anschließend eine Zusammenfassung des Prozesses und eine Confusion Matrix sichtbar.
 Durch Betätigen des Buttons ``Retain Results`` werden die Werte der Zusammenfassung in die darunterliegende Tabelle eingetragen. Diese kann als csv-Datei gespeichert werden. Ein weiterer Button ermöglicht das Ablegen des Models (pickle-Format) im Downloadordner.
 Auf der Seite ``dataset information`` sind die Datensätze und zugehörige Informationen einsehbar.
