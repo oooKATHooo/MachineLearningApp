@@ -15,7 +15,7 @@ from pathlib import Path
 
 
 st.set_page_config(page_title="ML App",
-                   page_icon='magic_wand',
+                   page_icon="pages/favicon.png",
                    layout="centered",
                    initial_sidebar_state='expanded'
                    )
@@ -23,7 +23,8 @@ st.set_page_config(page_title="ML App",
 
 # set state:
 state = st.session_state
-state.color = "MediumAquaMarine"
+if "color" not in state:
+        state.color = "MediumAquaMarine"
 colormap = sns.light_palette(state.color, as_cmap=True)
 
 if "df_" not in state:

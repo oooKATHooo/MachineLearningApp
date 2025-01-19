@@ -7,12 +7,16 @@ from streamlit_app import title_area
 
 
 st.set_page_config(page_title="ML App",
-                   page_icon='magic_wand',
+                   page_icon="pages/favicon.png",
                    layout="centered",
                    initial_sidebar_state='expanded'
                    )
 
 state = st.session_state
+if "data_choice" not in state:
+    state["data_choice"] = MLPipeline.Datasets[0]
+if "color" not in state:
+        state.color = "MediumAquaMarine"
 
 @st.cache_data
 def get_info(set:str):
